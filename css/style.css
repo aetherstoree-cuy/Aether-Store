@@ -6,7 +6,7 @@
   z-index: 98; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: hwb(204 0% 0%); /* Set a background color */
   color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 3px; /* Some padding */
@@ -29,7 +29,13 @@
 
 .coppy {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.coppy2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -49,4 +55,43 @@
   font-family: "Sora", sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+
+.bullet-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 0;
+}
+
+.bullet-text p {
+    margin: 0;
+}
+
+.bullet-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.bullet-text span {
+    flex-shrink: 0;
+}
+
+.bullet-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.peta {
+    color: inherit;
+    text-decoration: none;
+}
+
+.peta:hover {
+    color: #3bb2f6;
+    text-decoration: none;
 }
