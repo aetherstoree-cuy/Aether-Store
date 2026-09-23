@@ -126,11 +126,11 @@
     }
 
     .navbar {
-        max-width: 480px;
-        width: 100%;
-        left: 50%;
-        right: auto;
-        transform: translateX(-50%);
+        max-width: 480px !important;
+        width: 100% !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
         border-radius: 0 0 16px 16px;
     }
 
